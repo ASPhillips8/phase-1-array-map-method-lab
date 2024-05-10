@@ -12,5 +12,21 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
+  return 
+  
+  // return new array with case tutorial names ... use map()
+const newtutorials = tutorials.map()
+  
+  // access each word in turtorials --- how to sperate 
+
+  // iteration second time ... what data is here?
+
+  // capitalize first letter of each word
+  // function that takes word first letter capitlaize it and concatenate with slice
+
+function capitalizeFirstLetter(word) {
+  return word.charAt(0).uppercase() + word.slice(1);
+}
+
+
 }
